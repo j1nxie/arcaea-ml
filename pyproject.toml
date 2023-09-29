@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "arcaea-ml"
+version = "0.1.0"
+description = ""
+authors = ["j1nxie <rylieeeeexd@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+numpy = "^1.26.0"
+opencv-python = "^4.8.1.78"
+torch = "^2.0.1"
+pillow = "^10.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.9.1"
+ruff = "^0.0.291"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

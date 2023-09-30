@@ -11,11 +11,13 @@ numpy = "^1.26.0"
 opencv-python = "^4.8.1.78"
 torch = "^2.0.1"
 pillow = "^10.0.1"
+onnx = "^1.14.1"
 
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.9.1"
 ruff = "^0.0.291"
+poethepoet = "^0.23.0"
 
 [build-system]
 requires = ["poetry-core"]
